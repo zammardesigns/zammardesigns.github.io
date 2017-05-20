@@ -1,0 +1,87 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: main
+---
+<div class="section no-padding">
+    <section>
+        <div id="layerslider" style="width: 100%; height: 600px;">
+            <div class="ls-slide" data-ls="slidedelay: 5000; transition2d:5;">
+            <img src="https://image.ibb.co/mqQhkk/lets_go_dream.jpg" class="ls-bg" alt="background">
+
+            <p class="ls-l ls-mental-title" style="top:150px; left:0;" data-ls="offsetxin:0;durationin:2000;delayin:500;easingin:easeOutElastic;rotatexin:-90;transformoriginin:50% top 0;offsetxout:-200;durationout:1000;">
+                Designing art with paper mediums
+            </p>
+            </div>  
+        </div> <!-- layerslider -->
+    </section>
+</div> <!-- section -->
+
+<div class="section">
+    <section>
+        <div class="container">
+            <div class="row">
+            <div class="col-sm-6">
+                <h3>About Me</h3>
+                <p>California-based Pakistani paper artist with a love of paper, the written word and meandering outdoors. With a background in Economics and Finance and English, she is passionately doodles on any surface, weaves threads and is in love with paper and food. She loves the versatility and form that paper has to offer. In her own way, her expressions are cut and folded into her artwork.</p>
+            </div>
+            <div class="col-sm-6">
+                <h3>My Vission</h3>
+                <p>We are team of creative photographers. We passionate with photography and other creative things. If you are looking professional photography theme with endless possibilities, you come in right place. This template consist of well-organized layers. Tons of features waiting for you. </p>
+            </div>
+            </div>
+        </div> <!-- container -->
+    </section>
+</div> <!-- section -->
+
+
+<div class="section st-invert no-padding">
+    <section>
+
+        <ul id="gallery-w-preview" class="gallery gl-cols-4 gl-fixed-items">
+            {% for item in site.data.homegallery %}            
+            <li class="gl-item gl-fixed-ratio-item gl-loading" data-category="people">
+            <a href="#">
+                <figure>
+                    <img src="{{ item.image }}" alt="">
+                    <figcaption>
+                        <div class="middle"><div class="middle-inner">
+                        <p class="gl-item-icon"><i class="fa fa-picture-o"></i></p>
+                        <p class="gl-item-title">{{ item.title }}</p>
+                        </div></div>
+                    </figcaption>
+                </figure>
+            </a>
+            </li>
+            {% endfor %}
+                        
+        </ul> <!-- gallery -->
+    </section>
+</div> <!-- section -->
+
+
+<div class="section">
+    <section>
+        <div class="container">
+            <div class="section-title">
+            <h2 data-animate="fadeInDown">Our Services</h2>
+            <p class="section-descr">We are team of creative photographers. We passionate with photography and other creative things. If you are looking professional photography theme with endless possibilities, you come in right place. This template consist of well-organized layers. Tons of features waiting for you. </p>
+            </div>
+        </div> <!-- container -->
+    </section>
+</div> <!-- section -->
+
+<div class="section brands-section">
+    <section>
+        <div class="container">
+            <div class="row">
+            <div class="col-md-5cols col-sm-6"><img src="http://placehold.it/160x42" alt="envato"></div>
+            <div class="col-md-5cols col-sm-6"><img src="http://placehold.it/160x42" alt="wordpress"></div>
+            <div class="col-md-5cols col-sm-6"><img src="http://placehold.it/160x42" alt="jquery"></div>
+            <div class="col-md-5cols col-sm-6"><img src="http://placehold.it/160x42" alt="windows8"></div>
+            <div class="col-md-5cols col-sm-6"><img src="http://placehold.it/160x42" alt="themeforest"></div>
+            </div>
+        </div> <!-- container -->
+    </section>
+</div> <!-- section -->

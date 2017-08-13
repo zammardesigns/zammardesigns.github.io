@@ -32,3 +32,5 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+# All the plugins separated by comma
+plugins_dir: [jekyll-admin]
